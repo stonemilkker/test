@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap');
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+p.leading {
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+a.button {
+    font-family: Roboto;
+    width: 220px;
+    height: 50px;
+    color: #FFFCFC;
+    left: 409px;
+    top: 451px;
+    background: #E71717;
+    mix-blend-mode: normal;
+    padding: 14px 24px ;
+    text-decoration: none
+}
+a.button.white {
+    color:D6222D;
+    background: #FFFCFC;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1; 
+}
+header {
+    padding-top: 50px;
+}
+header .button {
+    float: right;
+}
+.background {
+    background: url(hero.png);
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.text {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.8);
+    padding: 44px 44px 60px;
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+}
